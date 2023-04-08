@@ -1,0 +1,88 @@
+@media (min-width: 1200px) {
+    .container {
+        margin: auto;
+        width: 1200px;
+    }
+    .slide-image-content h2{
+        font-size: 50px;
+    }
+    .slide-image-content p{
+        font-size: 25px;
+    }
+    .menu-items{
+        width: 300px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .top .row{
+        padding: 0 12px;
+    }
+    .about-item {
+        width: 100%;
+    }
+
+    .top .logo img {
+        width: 50px;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .section-title h2{
+        font-size: 30px;
+    }
+    .about .about-item h2{
+        font-size: 30px;
+    }
+    .food-items{
+        width: 100%;
+    }
+    .slide-image-content h2{
+        font-size: 50px;
+    }
+    .slide-image-content p{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .top .row{
+        padding: 0 5px;
+    }
+    .slide-image-content h2{
+        font-size: 35px;
+    }
+    .slide-image-content p{
+        font-size: 20px;
+    }
+    .menu-items{
+        width: 100%;
+        padding: 70px 20px;
+    }
+    .about .about-item h2{
+        font-size: 25px;
+    }
+    .about .about-item p{
+        font-size: 18px;
+    }
+    .menu-title .menu-button{
+        font-size: 18px;
+    }
+    .item-content img {
+        width: 80px;
+        height: 50px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    .item-content p{
+        font-size: 18px;
+    }
+    .food-price p{
+        font-size: 18px;
+    }
+    .food-items::before{
+        width: 90%;
+    }
+}
+
