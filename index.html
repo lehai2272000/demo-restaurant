@@ -8,6 +8,8 @@
     <title>Manage restaurant</title>
     <link rel="stylesheet" href="./public/css/styles.css">
     <link rel="stylesheet" href="./public/css/responsize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -60,7 +62,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="about-item">
+                <div class="about-item" data-aos="zoom-in-down">
                     <h2>CHÀO MỪNG CÁC BẠN ĐẾN VỚI THAI MARKET</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -74,7 +76,7 @@
                     </p>
                     <button class="item-btn btn">XEM MENU</button>
                 </div>
-                <div class="about-item">
+                <div class="about-item" data-aos="zoom-in-down">
                     <div class="about-item-img">
                         <span>Hơn 10 năm kinh nghiệm</span>
                         <img src="./public/images/about.jpg" alt="">
@@ -100,7 +102,7 @@
             </div>
             <div class="row justify-content">
                 <div class="menu-item-content active" id="trua">
-                    <div class="food-items">
+                    <div class="food-items" data-aos="fade-up-right">
                         <div class="item-content">
                             <img src="./public/images/image-banh-mi.jpg" alt="">
                             <p>Bánh mì</p>
@@ -109,7 +111,7 @@
                             <p>30.000 VNĐ</p>
                         </div>
                     </div>
-                    <div class="food-items">
+                    <div class="food-items" data-aos="fade-down-left">
                         <div class="item-content">
                             <img src="./public/images/image-tom-sot-ot.jpg" alt="">
                             <p>Tôm sốt ớt</p>
@@ -118,7 +120,7 @@
                             <p>150.000 VNĐ</p>
                         </div>
                     </div>
-                    <div class="food-items">
+                    <div class="food-items" data-aos="fade-up-right">
                         <div class="item-content">
                             <img src="./public/images/image-lau-ca-loc.jpg" alt="">
                             <p>Lẩu cá lóc</p>
@@ -127,7 +129,7 @@
                             <p>220.000 VNĐ</p>
                         </div>
                     </div>
-                    <div class="food-items">
+                    <div class="food-items" data-aos="fade-down-left">
                         <div class="item-content">
                             <img src="./public/images/image-lau-hai-san.jpg" alt="">
                             <p>Lẩu hải sản</p>
@@ -136,7 +138,7 @@
                             <p>250.000 VNĐ</p>
                         </div>
                     </div>
-                    <div class="food-items">
+                    <div class="food-items" data-aos="fade-up-right">
                         <div class="item-content">
                             <img src="./public/images/image-goi-xoai.jpg" alt="">
                             <p>Gỏi xoài</p>
@@ -145,7 +147,7 @@
                             <p>120.000 VNĐ</p>
                         </div>
                     </div>
-                    <div class="food-items">
+                    <div class="food-items" data-aos="fade-down-left">
                         <div class="item-content">
                             <img src="./public/images/image-banh-plan.jpg" alt="">
                             <p>Bánh plan</p>
@@ -154,7 +156,7 @@
                             <p>25.000 VNĐ</p>
                         </div>
                     </div>
-                    <div class="food-items">
+                    <div class="food-items" data-aos="fade-up-right">
                         <div class="item-content">
                             <img src="./public/images/image-banh-tra-sua.jpg" alt="">
                             <p>Combo bánh ngọt & trà sữa</p>
@@ -162,7 +164,7 @@
                         <div class="food-price">
                             <p>70.000 VNĐ</p>
                         </div>
-                    </div><div class="food-items">
+                    </div><div class="food-items" data-aos="fade-down-left">
                         <div class="item-content">
                             <img src="./public/images/image-tra-tac.jpg" alt="">
                             <p>Trà tắc</p>
@@ -395,6 +397,9 @@
         </div>
     </section>
     <script src="./public/js/script.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
